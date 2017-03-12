@@ -13,9 +13,17 @@
     <img src="seal.gif" />
     <br />
     <h3>There is no need to be upset.</h3>
+    <h4>Mobile browsers click here</h4>
+    <button type="button" onclick="playAudio()">Play audio</button>
     <script type="text/javascript">
+
     var audio = new Audio('music.mp3');
     audio.loop = true;
+    var playAudio = function() {
+        audio.play();
+    }
+
+
     audio.play();
     </script>
     </div>
